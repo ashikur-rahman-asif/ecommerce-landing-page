@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.header-wrap{
+    background: radial-gradient(#fff,#ffd6d6);
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin-block-end: 20px;
+    margin-right: 20px;
+}
+li a{
+    text-decoration: none;
+    color:#555;
+}
+.nav-elements{
+    flex:1;
+    text-align: right;
+}
+p{
+    color:#555;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.header-title{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.header-title img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.header-title h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    text-decoration: none;
+    margin: 30px 0;
+    border-radius:25px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #563434;
+}
