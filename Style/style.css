@@ -12,6 +12,7 @@ nav{
 }
 .header-wrap{
     background: radial-gradient(#fff,#ffd6d6);
+    height:100vh;
 }
 ul li{
     display: inline-block;
