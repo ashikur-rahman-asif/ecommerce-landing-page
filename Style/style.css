@@ -130,3 +130,22 @@ h4{
 .col-4:hover{
     transform: translateY(-5px);
 }
+.text-part{
+    display:flex;
+    align-items: center;
+}
+.offer{
+    background: radial-gradient(#fff,#ffd6d6);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+.smart{
+    margin-top: 10px;
+}
+.col-2 .offer-img{
+    padding: 50px;
+    /* max-width: 460px; */
+}
+small{
+    color: #555;
+}
