@@ -130,6 +130,9 @@ h4{
 .col-4:hover{
     transform: translateY(-5px);
 }
+.margin-latest{
+    margin-top: -20px;
+}
 .text-part{
     display:flex;
     align-items: center;
